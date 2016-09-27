@@ -46,7 +46,7 @@ input {
 .response {
   margin-top: 5px;
   font-size: 11px;
-  color: rgb(0,0,0,0.5);
+  color: rgba(0,0,0,0.5);
 }
 
 input[type="submit"].button {
