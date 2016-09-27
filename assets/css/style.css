@@ -2,6 +2,8 @@ body {
   background: url('../img/backsplash.jpeg') no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100vh;
+  font-family: 'Muli', sans-serif;
 }
 
 *, *:before, *:after {
@@ -9,8 +11,48 @@ body {
 }
 
 section.container {
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: calc(100vh / 5) auto;
+  padding: 10px 40px;
   width: 500px;
-  height: 300px;
-  border-radius: 10px;
+  height: 500px;
+  border-radius: 3px;
+  background: white;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  text-align: center;
+}
+
+hr {
+  width: 75%;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 1;
+}
+
+input {
+  width: 75%;
+  padding: 10px;
+}
+
+input[type="submit"].button {
+  margin-top: 10px;
+  padding: 10px;
+  background: white;
+  color: #105b7a;
+  border: 1px solid #105b7a;
+}
+
+input[type="submit"].button:hover {
+  color: white;
+  background: #105b7a;
+  cursor: pointer;
 }
